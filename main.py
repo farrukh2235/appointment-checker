@@ -47,7 +47,7 @@ def main():
         print('Cycle ' + str(i) + ':', datetime.datetime.now())
         init_request()
         take_action()
-        time.sleep(CHECK_AFTER * 60)
+        time.sleep(CHECK_AFTER * 10)
         i += 1
 
 if __name__ == '__main__':
